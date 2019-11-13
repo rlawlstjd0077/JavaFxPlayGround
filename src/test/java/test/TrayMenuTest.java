@@ -24,9 +24,6 @@ public class TrayMenuTest extends Application {
 
         TrayMenu trayMenu = new TrayMenu(primaryStage, trayIcon);
         trayMenu.addAppToTray();
-        while(true) {
-
-        }
     }
 }
 

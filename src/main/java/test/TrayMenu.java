@@ -41,7 +41,7 @@ public class TrayMenu extends Frame {
                 handleTerminate();
             });
 
-            final String systemName = "T";
+            final String systemName = "Tray Menu";
             final PopupMenu popup = new PopupMenu(systemName);
             popup.add(aboutItem);
             popup.addSeparator();
@@ -63,5 +63,4 @@ public class TrayMenu extends Frame {
             System.exit(0);
         });
     }
-
 }

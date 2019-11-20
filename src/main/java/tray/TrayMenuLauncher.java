@@ -1,4 +1,4 @@
-package test;
+package tray;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -6,7 +6,6 @@ import javafx.stage.Stage;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.InputStream;
-import java.util.Locale;
 
 public class TrayMenuLauncher extends Application {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package test;
+package tray;
 
 import javafx.application.Platform;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 

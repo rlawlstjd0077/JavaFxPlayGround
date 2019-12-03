@@ -14,7 +14,6 @@ import tray.TrayMenu;
 public class TimerTest extends Application {
 
   @Test
-  @Ignore
   public void test() {
     launch();
   }

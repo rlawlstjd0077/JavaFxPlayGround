@@ -2,11 +2,11 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.shape.Rectangle?>
-<fx:root type="StackPane" prefHeight="400.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root type="StackPane" prefHeight="400.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
   <children>
     <Rectangle height="50.0"
       style="-fx-fill: #2d4035; -fx-stroke: transparent; -fx-arc-height: 7; -fx-arc-width: 7; -fx-stroke-type: inside; -fx-stroke-width: 0;"
-      width="324.0"/>
+      width="400.0"/>
     <Text fx:id="time"
       style="-fx-fill: #FFF5E2; -fx-font-weight: bold; -fx-font-size: 30px; -fx-stroke-type: outside; -fx-stroke-width: 0;"
       text="0000-00-00 00:00:00">

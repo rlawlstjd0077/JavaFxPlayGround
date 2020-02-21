@@ -22,6 +22,7 @@ public class TimerTest extends Application {
   public void start(Stage primaryStage) throws IOException {
     TimerController controller = new TimerController();
     primaryStage.setScene(new Scene(controller));
+    primaryStage.setTitle("Timer Test");
     primaryStage.show();
   }
 }

@@ -19,7 +19,7 @@ public class TrayMenuTest extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        final InputStream resource = this.getClass().getResourceAsStream("/test/icons/tray_icon.png");
+        final InputStream resource = this.getClass().getResourceAsStream("/icons/tray_icon.png");
         TrayIcon trayIcon = new TrayIcon(ImageIO.read(resource));
 
         TrayMenu trayMenu = new TrayMenu(primaryStage, trayIcon);

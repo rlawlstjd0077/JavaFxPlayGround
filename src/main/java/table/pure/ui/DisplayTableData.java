@@ -1,14 +1,13 @@
-package table.ui;
+package table.pure.ui;
 
 import java.time.format.DateTimeFormatter;
 import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
-import javafx.beans.property.adapter.ReadOnlyJavaBeanStringProperty;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
-import table.domain.TableData;
+import table.pure.domain.TableData;
 
 public class DisplayTableData {
 

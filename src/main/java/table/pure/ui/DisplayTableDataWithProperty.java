@@ -1,15 +1,12 @@
-package table.ui;
+package table.pure.ui;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import javafx.beans.property.ReadOnlyBooleanWrapper;
-import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
-import table.domain.TableData;
-import table.domain.TableDataWithProperty;
+import table.pure.domain.TableDataWithProperty;
 
 public class DisplayTableDataWithProperty {
   public TableColumn[] getColumns() {

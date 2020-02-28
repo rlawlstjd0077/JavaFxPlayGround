@@ -1,4 +1,4 @@
-package table;
+package table.pure;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
@@ -8,9 +8,8 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.junit.Test;
-import table.domain.TableData;
-import table.ui.TableController;
-import timer.TimerController;
+import table.pure.domain.TableData;
+import table.pure.ui.TableController;
 
 public class TableTest extends Application {
 

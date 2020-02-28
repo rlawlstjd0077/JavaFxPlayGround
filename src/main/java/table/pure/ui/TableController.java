@@ -1,11 +1,10 @@
-package table.ui;
+package table.pure.ui;
 
 import java.util.List;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
-import sun.plugin.util.UIUtil;
-import table.domain.TableData;
+import table.pure.domain.TableData;
 import util.FxUtil;
 
 public class TableController extends AnchorPane {

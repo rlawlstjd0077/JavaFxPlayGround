@@ -11,8 +11,7 @@ public class TrayMenu extends Frame {
     private final transient Stage primaryStage;
     private final transient TrayIcon trayIcon;
 
-    public TrayMenu(Stage stage,
-                    TrayIcon trayIcon) {
+    public TrayMenu(Stage stage, TrayIcon trayIcon) {
         primaryStage = stage;
         this.trayIcon = trayIcon;
 

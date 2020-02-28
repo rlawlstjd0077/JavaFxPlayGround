@@ -19,8 +19,5 @@ public class TrayMenuLauncher extends Application {
 
         TrayMenu trayMenu = new TrayMenu(primaryStage, trayIcon);
         trayMenu.addAppToTray();
-        while(true) {
-
-        }
     }
 }

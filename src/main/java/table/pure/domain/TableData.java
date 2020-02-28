@@ -1,4 +1,4 @@
-package table.domain;
+package table.pure.domain;
 
 import java.time.ZonedDateTime;
 

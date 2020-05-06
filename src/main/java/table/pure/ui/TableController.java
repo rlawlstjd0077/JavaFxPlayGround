@@ -18,4 +18,8 @@ public class TableController extends AnchorPane {
     tableView.getColumns().setAll(new DisplayTableData().getColumns());
     tableView.getItems().setAll(tableDataList);
   }
+
+  public TableView<TableData> getTableView() {
+    return tableView;
+  }
 }

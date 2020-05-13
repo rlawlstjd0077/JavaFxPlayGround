@@ -4,19 +4,17 @@ import javafx.fxml.FXML;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import com.jinseong.soft.util.FxUtil;
-
 import java.io.File;
+import com.jinseong.soft.util.FxUiUtil;
 
 
 public class ImageController extends AnchorPane {
     @FXML
     private ImageView imageView;
 
-
     public ImageController(File imageFile) {
-        FxUtil.initializeFont();
-        FxUtil.loadFxml(this);
+        FxUiUtil.initializeFont();
+        FxUiUtil.loadFxml(this);
         initImage(imageFile);
     }
 

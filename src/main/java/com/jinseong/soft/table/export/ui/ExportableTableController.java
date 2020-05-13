@@ -11,7 +11,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import com.jinseong.soft.table.pure.domain.TableData;
 import com.jinseong.soft.table.pure.ui.TableController;
-import com.jinseong.soft.util.FxUtil;
+import com.jinseong.soft.util.FxUiUtil;
 import com.jinseong.soft.util.JsonUtil;
 
 public class ExportableTableController extends AnchorPane {
@@ -22,8 +22,8 @@ public class ExportableTableController extends AnchorPane {
   private Button exportButton;
 
   public ExportableTableController(List<TableData> tableDataList) {
-    FxUtil.initializeFont();
-    FxUtil.loadFxml(this);
+    FxUiUtil.initializeFont();
+    FxUiUtil.loadFxml(this);
     init(tableDataList);
   }
 

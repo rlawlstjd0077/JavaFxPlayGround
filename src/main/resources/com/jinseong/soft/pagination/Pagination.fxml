@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<fx:root style="-fx-background-color: #A2A5AC;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../fx.css" prefWidth="800" prefHeight="500">
+  <VBox AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="30" alignment="CENTER">
+    <Label fx:id="label">
+      <font>
+        <Font name="Roboto Regular" size="20.0" />
+      </font>
+    </Label>
+  </VBox>
+  <VBox prefHeight="30.0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0" alignment="CENTER">
+    <padding>
+      <Insets top="4" left="4" right="4" bottom="4"/>
+    </padding>
+    <Pagination fx:id="pagination" styleClass="my-pagination" GridPane.columnIndex="5" GridPane.rowIndex="5"/>
+  </VBox>
+</fx:root>

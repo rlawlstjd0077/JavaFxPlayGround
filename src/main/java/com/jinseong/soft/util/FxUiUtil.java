@@ -6,7 +6,7 @@ import javafx.scene.text.Font;
 import org.controlsfx.glyphfont.GlyphFont;
 import org.controlsfx.glyphfont.GlyphFontRegistry;
 
-public class FxUtil {
+public class FxUiUtil {
   private static GlyphFont fontAwesome;
 
   public static FXMLLoader getFxmlLoader(Class<?> clazz) {
@@ -50,7 +50,7 @@ public class FxUtil {
         "RobotoCondensed-Regular.ttf",
     };
     for (String font : fonts) {
-      Font.loadFont(FxUtil.class.getResourceAsStream("util/fonts/" + font), 12);
+      Font.loadFont(FxUiUtil.class.getResourceAsStream("util/fonts/" + font), 12);
     }
 
     fontAwesome = GlyphFontRegistry.font("FontAwesome");

@@ -137,19 +137,19 @@
 .my-pagination-bar-left-page {
     -fx-min-width: 30;
     -fx-min-height: 30;
-    -fx-graphic: url("images/gk2a/pagination/left_arrow_on.png");
+    -fx-graphic: url("images/mya/pagination/left_arrow_on.png");
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
     -fx-border-color: #B6B6BE;
     -fx-border-radius: 2 0 0 2;
 }
 .my-pagination-bar-left-page:disabled {
-    -fx-graphic: url("images/gk2a/pagination/left_arrow.png");
+    -fx-graphic: url("images/mya/pagination/left_arrow.png");
 }
 .my-pagination-bar-right-page {
     -fx-min-width: 30;
     -fx-min-height: 30;
-    -fx-graphic: url("images/gk2a/pagination/right_arrow_on.png");
+    -fx-graphic: url("images/mya/pagination/right_arrow_on.png");
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
     -fx-border-color: #B6B6BE;
@@ -157,7 +157,7 @@
     -fx-border-radius: 0 2 2 0;
 }
 .my-pagination-bar-right-page:disabled {
-    -fx-graphic: url("images/gk2a/pagination/right_arrow.png");
+    -fx-graphic: url("images/mya/pagination/right_arrow.png");
 }
 .my-pagination-bar-page {
     -fx-min-width: 30;
@@ -208,14 +208,14 @@
 
 .my-pagination .pagination-control .left-arrow-button:disabled {
     -fx-background-color:transparent;
-    -fx-background-image:url("images/gk2a/pagination/left_arrow.png");
+    -fx-background-image:url("images/mya/pagination/left_arrow.png");
     -fx-background-position:center;
     -fx-background-repeat: no-repeat no-repeat;
 }
 
 .my-pagination .pagination-control .right-arrow-button:disabled {
     -fx-background-color:white;
-    -fx-background-image:url("images/gk2a/pagination/right_arrow.png");
+    -fx-background-image:url("images/mya/pagination/right_arrow.png");
     -fx-background-position:center;
     -fx-background-repeat: no-repeat no-repeat;
 }
@@ -257,5 +257,63 @@
     -fx-text-fill:transparent;
 }
 
+/* Spinner */
+.my-spinner {
+    -fx-background-radius:2;
+    -fx-border-color:#B3B9BF;
+    -fx-border-radius:2;
+    -fx-background-insets:0;
+    -fx-font-family: "Roboto";
+    -fx-background-color:white;
+}
 
+.my-spinner:hover {
+    -fx-border-color:#2196F3;
+}
+
+.my-spinner:focused {
+    -fx-background-color:white;
+    -fx-border-color:#2196F3;
+}
+
+.my-spinner .text-field:focused {
+    -fx-background-color:white;
+}
+
+.my-spinner .text-field {
+    -fx-background-color:white;
+}
+
+.my-spinner:focused {
+    -fx-background-radius:2;
+    -fx-border-radius:2;
+    -fx-background-insets:0;
+    -fx-effect: dropshadow(three-pass-box, rgba(65,137,221,0.8), 4, 0, 0, 0);
+}
+
+.my-spinner .increment-arrow-button {
+    -fx-border-color:transparent;
+    -fx-background-color:transparent;
+    -fx-background-image:url("icons/arrow_up.png");
+    -fx-background-position:top center;
+    -fx-background-repeat: no-repeat no-repeat;
+}
+
+.my-spinner .decrement-arrow-button {
+    -fx-border-color:transparent;
+    -fx-background-insets:0;
+    -fx-background-color:transparent;
+    -fx-background-image:url("icons/arrow_down.png");
+    -fx-background-position:bottom center;
+    -fx-background-repeat: no-repeat no-repeat;
+}
+
+.my-spinner .increment-arrow-button .increment-arrow,
+.my-spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color:transparent;
+}
+
+.my-spinner:disabled {
+    -fx-opacity:0.6;
+}
 

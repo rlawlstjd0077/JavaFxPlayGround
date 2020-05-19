@@ -317,3 +317,45 @@
     -fx-opacity:0.6;
 }
 
+/* ScrollBar */
+.my-scroll-bar:vertical {
+    -fx-min-width:14;
+    -fx-background-insets:0;
+    -fx-background-color:transparent;
+}
+
+.my-scroll-bar:horizontal {
+    -fx-min-height:14;
+    -fx-background-insets:0;
+    -fx-background-color: transparent;
+}
+
+.my-scroll-bar:vertical .thumb {
+    -fx-background-color:#B4B9BF;
+    -fx-background-radius: 11em;
+    -fx-background-insets:0 3.5 0 3.5;
+}
+
+.my-scroll-bar:horizontal .thumb {
+    -fx-background-color:#B4B9BF;
+    -fx-background-radius: 11em;
+    -fx-background-insets:3.5 0 3.5 0;
+}
+
+.my-scroll-bar > .increment-button > .increment-arrow,
+.my-scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+.my-scroll-bar > .increment-button,
+.my-scroll-bar > .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.my-scroll-bar .thumb:hover {
+    -fx-background-color:#C7CCD2;
+}
+
+.my-scroll-bar .thumb:pressed {
+    -fx-background-color:#A6AAB6;
+}

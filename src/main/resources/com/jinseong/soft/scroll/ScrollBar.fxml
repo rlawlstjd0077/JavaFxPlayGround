@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../fx.css" prefWidth="400" prefHeight="400">
+  <VBox alignment="CENTER" AnchorPane.topAnchor="15" AnchorPane.leftAnchor="15" AnchorPane.bottomAnchor="15" AnchorPane.rightAnchor="15" spacing="10">
+    <Label fx:id="verticalLabel">
+      <font>
+        <Font name="Roboto Regular" size="20.0" />
+      </font>
+    </Label>
+    <Label fx:id="horizontalLabel">
+      <font>
+        <Font name="Roboto Regular" size="20.0" />
+      </font>
+    </Label>
+  </VBox>
+  <ScrollBar fx:id="horizontalScrollBar" styleClass="my-scroll-bar" AnchorPane.bottomAnchor="0" orientation="HORIZONTAL" AnchorPane.rightAnchor="0" AnchorPane.leftAnchor="0"/>
+  <ScrollBar fx:id="verticalScrollBar" styleClass="my-scroll-bar" AnchorPane.bottomAnchor="0" orientation="VERTICAL" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0"/>
+</fx:root>

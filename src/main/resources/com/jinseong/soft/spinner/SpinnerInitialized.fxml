@@ -6,11 +6,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<fx:root style="-fx-background-color: #A2A5AC;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../fx.css" prefWidth="800" prefHeight="500">
+<fx:root style="-fx-background-color: #A2A5AC;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../fx.css" prefWidth="400" prefHeight="250">
   <VBox AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER" spacing="20">
     <HBox alignment="CENTER">
       <Label text="Spinner with factory: "/>
-      <Spinner fx:id="spinnerWithFactory">
+      <Spinner fx:id="spinnerWithFactory" styleClass="my-spinner">
         <valueFactory>
           <SpinnerValueFactory.IntegerSpinnerValueFactory min="0" max="10" initialValue="5" amountToStepBy="1"/>
         </valueFactory>
@@ -23,7 +23,7 @@
         <Integer fx:id="max" fx:value="10"/>
         <Integer fx:id="amount" fx:value="1"/>
       </fx:define>
-      <Spinner fx:id="spinnerWithoutFactory" min="$min" max="$max" amountToStepBy="$amount"/>
+      <Spinner fx:id="spinnerWithoutFactory" min="$min" max="$max" amountToStepBy="$amount" styleClass="my-spinner"/>
     </HBox>
   </VBox>
 </fx:root>

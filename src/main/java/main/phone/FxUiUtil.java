@@ -1,4 +1,4 @@
-package com.jinseong.soft.util;
+package main.phone;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

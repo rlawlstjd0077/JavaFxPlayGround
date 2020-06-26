@@ -1,6 +1,5 @@
-package com.jinseong.soft.phone;
+package main.phone;
 
-import com.jinseong.soft.scroll.ScrollBarController;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

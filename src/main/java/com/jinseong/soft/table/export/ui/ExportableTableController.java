@@ -11,7 +11,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import com.jinseong.soft.table.pure.domain.TableData;
 import com.jinseong.soft.table.pure.ui.TableController;
-import com.jinseong.soft.util.FxUiUtil;
+import main.phone.FxUiUtil;
 import com.jinseong.soft.util.JsonUtil;
 
 public class ExportableTableController extends AnchorPane {

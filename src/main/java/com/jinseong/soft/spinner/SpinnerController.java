@@ -1,9 +1,8 @@
 package com.jinseong.soft.spinner;
 
-import com.jinseong.soft.util.FxUiUtil;
+import main.phone.FxUiUtil;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

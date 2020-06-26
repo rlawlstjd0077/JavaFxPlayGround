@@ -1,7 +1,6 @@
 package com.jinseong.soft.pagination;
 
-import com.jinseong.soft.util.FxUiUtil;
-import java.io.File;
+import main.phone.FxUiUtil;
 import javafx.beans.value.ChangeListener;
 import javafx.fxml.FXML;
 import javafx.scene.Node;

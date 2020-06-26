@@ -3,7 +3,7 @@ package com.jinseong.soft.timer;
 import javafx.fxml.FXML;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
-import com.jinseong.soft.util.FxUiUtil;
+import main.phone.FxUiUtil;
 
 public class TimerController extends StackPane {
 

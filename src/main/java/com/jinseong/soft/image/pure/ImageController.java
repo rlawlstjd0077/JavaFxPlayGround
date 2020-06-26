@@ -5,7 +5,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import java.io.File;
-import com.jinseong.soft.util.FxUiUtil;
+import main.phone.FxUiUtil;
 
 
 public class ImageController extends AnchorPane {

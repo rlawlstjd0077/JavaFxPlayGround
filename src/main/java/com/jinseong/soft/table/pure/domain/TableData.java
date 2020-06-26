@@ -1,5 +1,6 @@
 package com.jinseong.soft.table.pure.domain;
 
+import java.io.Serializable;
 import java.time.ZonedDateTime;
 
 public class TableData {

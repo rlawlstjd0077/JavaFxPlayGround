@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.geometry.Insets?>
-<fx:root style="-fx-background-color: white;" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../fx.css" prefWidth="350" prefHeight="450">
+<fx:root style="-fx-background-color: white;" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" prefWidth="350" prefHeight="450">
     <top>
         <HBox alignment="CENTER_LEFT">
             <padding>
                 <Insets top="5" left="5"/>
             </padding>
-            <Button fx:id="fileButton" text="File" style="-fx-background-color:blue;  -fx-background-radius: 0; -fx-text-fill:white;">
+            <Button fx:id="fileButton" text="File" style="-fx-background-color:#1190D6;  -fx-background-radius: 0; -fx-text-fill:white;">
             </Button>
         </HBox>
     </top>
@@ -27,19 +27,19 @@
                     <VBox AnchorPane.topAnchor="40" AnchorPane.leftAnchor="10" AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0" spacing="15">
                         <HBox spacing="5" alignment="CENTER_LEFT">
                             <Label text="회원번호"/>
-                            <TextField promptText="회원번호를 입력하시오"/>
+                            <TextField fx:id="numTextField" promptText="회원번호를 입력하시오"/>
                         </HBox>
                         <HBox spacing="5">
-                            <Button text="기종 선택" prefWidth="100"/>
-                            <TextField promptText="버튼을 눌러 선택하시오." prefWidth="200"/>
+                            <Button text="기종 선택" prefWidth="100" fx:id="typeSelectButton"/>
+                            <TextField fx:id="typeTextField" promptText="버튼을 눌러 선택하시오." prefWidth="200"/>
                         </HBox>
                         <HBox spacing="5">
                             <Button text="통신사 선택" prefWidth="100" fx:id="brandSelectButton"/>
-                            <TextField  promptText="버튼을 눌러 선택하시오." prefWidth="200"/>
+                            <TextField fx:id="brandTextField" promptText="버튼을 눌러 선택하시오." prefWidth="200"/>
                         </HBox>
                         <HBox spacing="5">
                             <Label text="가입날짜"/>
-                            <TextField prefWidth="130"/>
+                            <TextField prefWidth="130" fx:id="dateField"/>
                             <Button fx:id="tableSaveButton" text="테이블에 저장" prefWidth="130"/>
                         </HBox>
                     </VBox>
@@ -51,17 +51,17 @@
                     <VBox AnchorPane.topAnchor="40" AnchorPane.leftAnchor="10" AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0" spacing="20">
                         <Label text="통신사"/>
                         <HBox spacing="20" alignment="CENTER">
-                            <RadioButton text="SKT">
+                            <RadioButton text="SKT" userData="SKT">
                                 <toggleGroup>
                                     <ToggleGroup fx:id="group"/>
                                 </toggleGroup>
                             </RadioButton>
-                            <RadioButton text="LGU+" >
+                            <RadioButton text="LGU+" userData="LGU+" >
                                 <toggleGroup>
                                     <fx:reference source="group"/>
                                 </toggleGroup>
                             </RadioButton>
-                            <RadioButton text="KT">
+                            <RadioButton text="KT" userData="KT">
                                 <toggleGroup>
                                     <fx:reference source="group"/>
                                 </toggleGroup>
@@ -69,7 +69,7 @@
                         </HBox>
                         <HBox spacing="15">
                             <Label text="가입날짜"/>
-                            <DatePicker prefWidth="260"/>
+                            <DatePicker fx:id="datePicker" prefWidth="260"/>
                         </HBox>
                         <Button text="확인" fx:id="brandOkButton" prefWidth="120" prefHeight="40"/>
                     </VBox>
@@ -82,7 +82,7 @@
         <VBox prefHeight="200" prefWidth="250" spacing="5">
             <Separator orientation="HORIZONTAL" prefWidth="350"/>
             <Label text="내역"/>
-            <TableView prefHeight="180" prefWidth="250"/>
+            <TableView fx:id="tableView" prefHeight="180" prefWidth="250"/>
         </VBox>
 
     </bottom>

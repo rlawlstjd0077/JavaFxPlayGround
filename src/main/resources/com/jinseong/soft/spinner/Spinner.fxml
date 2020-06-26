@@ -21,5 +21,4 @@
       <Spinner fx:id="spinnerList" styleClass="my-spinner"/>
     </HBox>
   </VBox>
-
 </fx:root>

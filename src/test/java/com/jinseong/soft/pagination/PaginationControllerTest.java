@@ -11,10 +11,9 @@ public class PaginationControllerTest extends Application {
 
   @Override
   public void start(Stage primaryStage) throws Exception {
-    File imageFile = new File("data/Test.png");
-    PaginationController imageController = new PaginationController(10);
+    PaginationController imageController = new PaginationController();
     primaryStage.setScene(new Scene(imageController));
-    primaryStage.setTitle("Image Test");
+    primaryStage.setTitle("Pagination Test");
     primaryStage.show();
   }
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<fx:root style="-fx-background-color: white;" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" prefWidth="400" prefHeight="400">
+  <center>
+    <HBox alignment="CENTER">
+      <Button>
+        <graphic>
+          <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+              <Image url="@gmail.png" />
+            </image>
+          </ImageView>
+        </graphic>
+      </Button>
+    </HBox>
+  </center>
+</fx:root>

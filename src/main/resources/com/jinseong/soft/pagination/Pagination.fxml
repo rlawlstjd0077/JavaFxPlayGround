@@ -12,8 +12,7 @@
   <VBox AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="30" alignment="CENTER">
     <Label fx:id="label">
       <font>
-        <Font name="Roboto Regular" size="20.0" />
-      </font>
+z      </font>
     </Label>
   </VBox>
   <VBox prefHeight="30.0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0" alignment="CENTER">

@@ -14,7 +14,6 @@ public class MainApplication extends Application {
   public void start(Stage primaryStage) throws Exception {
     PhoneController controller = new PhoneController();
     primaryStage.setScene(new Scene(controller));
-    primaryStage.setTitle("21624114 김구광");
     primaryStage.show();
   }
 }

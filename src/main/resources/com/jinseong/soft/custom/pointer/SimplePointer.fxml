@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<fx:root style="-fx-background-color: white;" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" prefWidth="500" prefHeight="500">
+  <center>
+      <Label fx:id="pointLabel" alignment="CENTER" prefHeight="35" prefWidth="300">
+        <font>
+          <Font name="Roboto Regular" size="14.0" />
+        </font>
+      </Label>
+  </center>
+</fx:root>
